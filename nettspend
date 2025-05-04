@@ -151,5 +151,5 @@ local Button = scriptsTab:CreateButton({
 local Button = scriptsTab:CreateButton({
    Name = "MVSD OP",
    Callback = function()
-      loadstring(game:HttpGet('https://raw.githubusercontent.com/henryg87/ScriptHub/refs/heads/main/nettspend'))()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealAvrwm/Projects/main/Xeno%20MVSD%20script.lua", true))()
 })
