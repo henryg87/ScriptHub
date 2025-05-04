@@ -147,9 +147,3 @@ local Button = scriptsTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/f3a2/nfluniverse/refs/heads/main/nfluniversescript.lua"))()
    end,
 })
-
-local Button = scriptsTab:CreateButton({
-   Name = "MVSD OP",
-   Callback = function()
-      loadstring(game:HttpGet("https://raw.githubusercontent.com/TheRealAvrwm/Projects/main/Xeno%20MVSD%20script.lua", true))()
-})
