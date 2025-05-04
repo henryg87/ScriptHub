@@ -119,10 +119,3 @@ local Window = Rayfield:CreateWindow({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/henryg87/niggahub/refs/heads/main/niggahub", true))()
     end,
  })
-
- local Button = scriptsTab:CreateButton({
-    Name = "Unnamed ESP",
-    Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
-    end,
- })
