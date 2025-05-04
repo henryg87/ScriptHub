@@ -126,3 +126,10 @@ local Window = Rayfield:CreateWindow({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/Alan0947383/Demonic-HUB-V2/main/S-C-R-I-P-T.lua",true))()
     end,
  })
+
+ local Button = scriptsTab:CreateButton({
+   Name = "Big Paintball",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/henryg87/big-paintball/refs/heads/main/paint",true))()
+   end,
+})
