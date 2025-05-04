@@ -91,3 +91,38 @@ local Window = Rayfield:CreateWindow({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/vnausea/absence-mini/refs/heads/main/absencemini.lua"))()
     end,
  })
+
+ local Button = scriptsTab:CreateButton({
+    Name = "Frontlines",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AnyxWareRblx/Made-By-Got_Seinn_Vater/refs/heads/main/Fontlines",true))()
+    end,
+ })
+
+ local Button = scriptsTab:CreateButton({
+    Name = "Jailbreak",
+    Callback = function()
+        loadstring(game:HttpGet('http://scripts.projectauto.xyz/AutoRobV5'))()
+    end,
+ })
+
+ local Button = scriptsTab:CreateButton({
+    Name = "BedWars",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+    end,
+ })
+
+ local Button = scriptsTab:CreateButton({
+    Name = "Old ass script hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/henryg87/niggahub/refs/heads/main/niggahub", true))()
+    end,
+ })
+
+ local Button = scriptsTab:CreateButton({
+    Name = "Unnamed ESP",
+    Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
+    end,
+ })
