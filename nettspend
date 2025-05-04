@@ -137,6 +137,6 @@ local Window = Rayfield:CreateWindow({
 local Button = scriptsTab:CreateButton({
    Name = "Jailbreak (arrest)",
    Callback = function()
-      loadstring(game:HttpGet("https://pastejustit.com/raw/ujv4sg6izc", true))()
+      loadstring(game:HttpGet('https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular'))()
    end,
 })
