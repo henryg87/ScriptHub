@@ -140,3 +140,10 @@ local Button = scriptsTab:CreateButton({
       loadstring(game:HttpGet('https://raw.githubusercontent.com/BlitzIsKing/UniversalFarm/main/Loader/Regular'))()
    end,
 })
+
+local Button = scriptsTab:CreateButton({
+   Name = "Universe Football",
+   Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/f3a2/nfluniverse/refs/heads/main/nfluniversescript.lua"))()
+   end,
+})
