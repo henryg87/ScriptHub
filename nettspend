@@ -154,3 +154,10 @@ local Button = scriptsTab:CreateButton({
       loadstring(game:HttpGet("https://raw.githubusercontent.com/AfgMS/LimeForRoblox/refs/heads/main/Loader.lua"))()
    end,
 })
+
+local Button = scriptsTab:CreateButton({
+   Name = "Rivals Legit",
+   Callback = function()
+      loadstring(game:HttpGet(('https://raw.githubusercontent.com/blackowl1231/ZYPHERION/refs/heads/main/main.lua')))()
+   end,
+})
